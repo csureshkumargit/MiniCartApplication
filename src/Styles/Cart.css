@@ -1,0 +1,87 @@
+.cart-image{
+    width: 70%;
+    height: 8em;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+}
+.cart-item{
+    background: lightgray;
+}
+.cart-title{
+    margin-top: 2em;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.cart-description{
+    font-family: serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+.cart-add-remove-btn{
+    margin-top: 3.5em;
+    background: lightgray;
+    border:none;
+    margin-left:1em;
+    font-weight: bolder;
+}
+
+.cart-add-remove-btn:hover{
+    cursor: pointer;
+}
+.cart-btn-qty{
+    font-weight:500;
+}
+.cart-btn-qty:hover{
+    cursor:default;
+}
+.cart-price{
+    margin-top: 3.5em;
+    font-family:serif;
+    font-weight: 500;
+}
+.usr-msg{
+    font-size: 2em;
+    text-align: center;
+    font-family: ui-serif;
+    font-weight: bold;
+}
+@media only screen and (max-width:600px){
+    .cart-image{
+        margin-left: 1.6em;
+        margin-top:1.5em;
+    }
+    .cart-add-remove-btn{
+        margin-left: 0em;
+        
+    }
+    .cart-description{
+        font-size: 0.9em;
+    }
+
+    .usr-msg{
+        font-size: 1.2em;
+    }
+    
+}
+@media only screen and (min-width: 600px) and (max-width:767px){
+    .cart-add-remove-btn{
+        margin-left: 0em;
+    }
+    .usr-msg{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .cart-add-remove-btn{
+        margin-left: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
